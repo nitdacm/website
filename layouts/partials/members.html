@@ -8,30 +8,22 @@
         <h2>The Team</h2>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="row animate-box">
-          <div class="owl-carousel1">
-						{{ range .list }}
-            <div class="item">
-              <div class="testimony-slide text-center active">
-								<figure><img src="images/person1.jpg" alt="user" /></figure>
-                <blockquote>
-                  <p>
-                    <i class="icon-quotes-left"></i> Far far away, behind the
-                    word mountains, far from the countries Vokalia and
-                    Consonantia, there live the blind texts. Separated they live
-                    in Bookmarksgrove right at the coast of the Semantics, a
-                    large language ocean.
-                  </p>
-									<span>{{ .name }}, {{ .designation }}</span>
-                </blockquote>
-              </div>
-            </div>
-						{{ end }}
+    <div class="row animate-box flex wrap justify-center" >
+			{{ range .list }}
+      <div class="col-md-4 align-self-center" style="margin-bottom: 5%;">
+        <div class="item">
+          <div class="testimony-slide text-center active">
+						<figure><img src="images/person1.jpg" alt="user" /></figure>
+            <blockquote>
+							<span>
+                  <h4 style="margin:0;">{{ .name }} </h3>
+                  <b style="color:black;">{{ .designation }}</b>
+              </span>
+            </blockquote>
           </div>
         </div>
       </div>
+			{{ end }}
     </div>
   </div>
 </div>
