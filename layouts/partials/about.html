@@ -1,0 +1,16 @@
+{{ with .Site.Params.about }}
+<div id="colorlib-counter" class="colorlib-counters">
+  <div class="container">
+    <div class="row">
+      <div
+        class="col-md-8 col-md-offset-2 text-center animate-box intro-heading"
+      >
+        <h2>Who we are</h2>
+        <p>
+					{{ .desc | markdownify }}
+        </p>
+      </div>
+    </div>
+	</div>
+</div>
+{{ end }}

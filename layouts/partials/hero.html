@@ -1,0 +1,30 @@
+{{ with .Site.Params.hero }}
+<aside id="colorlib-hero">
+  <div class="flexslider">
+    <ul class="slides">
+      {{ range .list }}
+      <li style="background-image: url(images/{ .bgimg });">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-md-8 col-sm-12 col-md-offset-2 col-md-pull-2 slider-text"
+            >
+              <div class="slider-text-inner">
+                <h2>{{ .title }}</h2>
+                <h1>{{ .description }}</h1>
+                <p>
+                  <a href="{{ .url }}" class="btn btn-primary btn-learn"
+                    >{{ .btndesc }}</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</aside>
+{{ end }}

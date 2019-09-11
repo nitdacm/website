@@ -1,0 +1,160 @@
+baseURL = "http://nitdelhi.acm.org/"
+languageCode = "en-us"
+title = "NIT Delhi ACM Student Chapter"
+
+[params.og]
+	title = "NIT Delhi ACM Student Chapter"
+	image = "final.jpg"
+	url = ""
+	site_name = ""
+	description = ""
+
+[params.nav]
+
+	[[ params.nav.item ]]
+
+		title = "About Us"
+		url = "/about"
+
+	[[ params.nav.item ]]
+
+		title = "Blog"
+		url = "/blog"
+
+
+[params.hero]
+
+	show = true
+
+	[[ params.hero.list ]]
+
+		title = "The next big thing!"
+		description = "NIT Delhi needs ACM students chapter and here we are!"
+		bgimg = "img_bg_1.jpg"
+
+		url = "/"
+		btndesc = "Join Us!"
+
+[params.about]
+
+	show = true
+	desc = "The National Institute of Technology Delhi ACM Student Chapter is an official student body incepted in 2019. Student Chapters provide unique opportunities for **Networking, Mentoring and Bonding** over **Common Interests**. The chapter organizes a number of events including programming contests, talks by renowned speakers, workshops etc. which give the students an exposure to the competitive computing world as well as allow them to understand the advancements going on in the Computing Sphere worldwide. The objective of the chapter to promote Computer Science as field of education and foster a sense of innovation and creativity among Computer Enthusiasts."
+
+
+[params.services]
+
+	show = true
+
+	title = "Student Interest Groups"
+
+	[[ params.services.list ]]
+		
+		title = "Competitive Programming"
+		icon  = "icon-pen3"
+		description = "Teach and Preach programming as a sport!"
+
+	[[ params.services.list ]]
+		
+		title = "Web/App Development"
+		icon  = "icon-diamond"
+		description = "Build technologies for the people"
+
+	[[ params.services.list ]]
+		
+		title = "Machine Learning"
+		icon  = "icon-photo"
+		description = "AI is the next frontier in human ascension"
+
+[params.members]
+
+	show = true
+
+	[[ params.members.list ]]
+
+		name = "Dr. Anurag Singh"
+		designation = "Faculty Sponsor"
+		quote = ""
+		avatar = ""
+		linkedin = ""
+
+	[[ params.members.list ]]
+
+		name = "Vighnesh SK"
+		designation = "Chairman"
+		quote = ""
+		avatar = ""
+
+	[[ params.members.list ]]
+
+		name = "Ajay Rathore"
+		designation = "Vice Chairman"
+		quote = ""
+		avatar = ""
+	
+	[[ params.members.list ]]
+
+		name = "Mohit Sharma"
+		designation = "Treasurer"
+		quote = ""
+		avatar = ""
+
+	[[ params.members.list ]]
+
+		name = "Sushma"
+		designation = "Secretary"
+		quote = ""
+		avatar = ""
+
+	[[ params.members.list ]]
+
+		name = "Aryan Garg"
+		designation = "Web Master"
+		quote = ""
+		avatar = ""
+	
+	[[ params.members.list ]]
+
+		name = "Parvez Akhtar"
+		designation = "Membership Chair"
+		quote = ""
+		avatar = ""
+
+[params.work]
+
+	show = false
+
+[params.blogpreview]
+
+	show = false
+
+[params.counter]
+
+	show = false
+
+	[[ params.counter.item ]]
+
+		title = "Members"
+		count = "12"
+
+	[[ params.counter.item ]]
+
+		title = "Projects"
+		count = "2"
+
+	[[ params.counter.item ]]
+
+		title = "Research Papers"
+		count = "0"
+
+[params.testimony]
+
+	show = false
+
+[params.hire]
+
+	show = false
+
+[params.footer]
+
+	email = "hello@nitdelhi.acm.org"
+

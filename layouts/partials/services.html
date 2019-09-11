@@ -1,0 +1,26 @@
+{{ with .Site.Params.services }}
+<div id="colorlib-services">
+  <div class="container">
+    <div class="row">
+      <div
+        class="col-md-8 col-md-offset-2 text-center animate-box intro-heading"
+      >
+        <h2>{{ .title }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      {{ range .list }}
+      <div class="col-md-4 animate-box">
+        <div class="services">
+          <span class="icon"><i class="{{ .icon }}"></i></span>
+          <div class="desc">
+            <h3>{{ .title }}</h3>
+            <p>{{ .description }}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}
