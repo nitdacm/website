@@ -74,7 +74,7 @@ title = "NIT Delhi ACM Student Chapter"
 		name = "Dr. Anurag Singh"
 		designation = "Faculty Sponsor"
 		quote = ""
-		avatar = ""
+		avatar = "dranurag.jpg"
 		linkedin = ""
 
 	[[ params.members.list ]]
@@ -82,42 +82,42 @@ title = "NIT Delhi ACM Student Chapter"
 		name = "Vighnesh SK"
 		designation = "Chairman"
 		quote = ""
-		avatar = ""
+		avatar = "vignesh.jpg"
 
 	[[ params.members.list ]]
 
 		name = "Ajay Rathore"
 		designation = "Vice Chairman"
 		quote = ""
-		avatar = ""
+		avatar = "ajay.jpg"
 	
 	[[ params.members.list ]]
 
 		name = "Mohit Sharma"
 		designation = "Treasurer"
 		quote = ""
-		avatar = ""
+		avatar = "mohit.jpg"
 
 	[[ params.members.list ]]
 
-		name = "Sushma"
+		name = "Sushma Deegoju"
 		designation = "Secretary"
 		quote = ""
-		avatar = ""
+		avatar = "sushma.jpg"
 
 	[[ params.members.list ]]
 
 		name = "Aryan Garg"
 		designation = "Web Master"
 		quote = ""
-		avatar = ""
+		avatar = "aryan.jpg"
 	
 	[[ params.members.list ]]
 
 		name = "Parvez Akhtar"
 		designation = "Membership Chair"
 		quote = ""
-		avatar = ""
+		avatar = "parvez.jpg"
 
 [params.work]
 
