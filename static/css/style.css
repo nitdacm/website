@@ -1008,8 +1008,8 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
 #colorlib-testimony .testimony-slide figure img {
 	width: 150px;
 	margin: 0 auto;
-	padding: .5em;
-	border: 1px solid #e6e6e6
+	padding: .25em;
+	border: 1px solid lightgrey
 }
 
 #colorlib-testimony .testimony-slide blockquote {
@@ -1666,7 +1666,16 @@ input[type=text] {
 		text-align: left
 	}
 }
-
+#footer  .make-center{
+	text-align: center;
+	/*background-color: red;*/
+}
+#footer .subscribe a {
+	font-size: 20px;
+	outline: none;
+	color:  #b3b3b3 !important;
+	text-decoration: underline;
+}
 #footer .subscribe .form-control {
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;

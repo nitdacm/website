@@ -14,13 +14,27 @@ title = "NIT Delhi ACM Student Chapter"
 	[[ params.nav.item ]]
 
 		title = "About Us"
-		url = "/about"
+		url = "/#aboutus"
 
 	[[ params.nav.item ]]
 
 		title = "Blog"
 		url = "/blog"
 
+	[[ params.nav.item ]]
+
+		title = "Events"
+		url = "/#events"
+
+	[[ params.nav.item ]]
+
+		title = "SIGs"
+		url = "/#sigs"
+
+	[[ params.nav.item ]]
+
+		title = "Team"
+		url = "/#team"
 
 [params.hero]
 
@@ -28,13 +42,28 @@ title = "NIT Delhi ACM Student Chapter"
 
 	[[ params.hero.list ]]
 
-		title = "The next big thing!"
-		description = "NIT Delhi needs ACM students chapter and here we are!"
-		bgimg = "img_bg_1.jpg"
+		title = "Welcome To !"
+		description = "ACM Student Branch NIT DELHI"
+		bgimg = "cs.jpg"
+
+		url = "/#aboutus"
+		btndesc = "About Us!"
+	[[ params.hero.list ]]
+
+		title = "Vision"
+		description = "It's the community that shapes your knowledge"
+		bgimg = "index.jpg"
 
 		url = "/"
 		btndesc = "Join Us!"
+	[[ params.hero.list ]]
 
+		title = "Upcoming Event"
+		description = "14 Sep Learning Track - Fullstack by A. Rathore"
+		bgimg = "index2.jpg"
+
+		url = "/"
+		btndesc = "Know More!"
 [params.about]
 
 	show = true
@@ -50,19 +79,19 @@ title = "NIT Delhi ACM Student Chapter"
 	[[ params.services.list ]]
 		
 		title = "Competitive Programming"
-		icon  = "icon-pen3"
+		icon  = "icon-code"
 		description = "Teach and Preach programming as a sport!"
 
 	[[ params.services.list ]]
 		
 		title = "Web/App Development"
-		icon  = "icon-diamond"
+		icon  = "icon-laptop"
 		description = "Build technologies for the people"
 
 	[[ params.services.list ]]
 		
-		title = "Machine Learning"
-		icon  = "icon-photo"
+		title = "Data Science"
+		icon  = "icon-rocket"
 		description = "AI is the next frontier in human ascension"
 
 [params.members]
