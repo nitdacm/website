@@ -43,7 +43,7 @@ title = "NIT Delhi ACM Student Chapter"
 	[[ params.hero.list ]]
 
 		title = "Welcome To !"
-		description = "ACM Student Branch NIT DELHI"
+		description = "NIT DELHI ACM Student CHAPTER"
 		bgimg = "cs.jpg"
 
 		url = "/#aboutus"
@@ -140,6 +140,18 @@ title = "NIT Delhi ACM Student Chapter"
 		designation = "Membership Chair"
 		quote = ""
 		avatar = "parvez.jpg"
+	[[ params.members.list ]]
+
+		name = "Abhay Singh"
+		designation = "SIG Head"
+		quote = ""
+		avatar = "abhaysingh.jpg"
+	[[ params.members.list ]]
+
+		name = "SU Varun"
+		designation = "SIG Head"
+		quote = ""
+		avatar = "suvarun.jpg"
 
 [params.work]
 
